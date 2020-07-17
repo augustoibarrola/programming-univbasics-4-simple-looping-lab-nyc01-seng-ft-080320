@@ -20,6 +20,7 @@ end
 
 def return_string_array(array)
   count = 0
+  new_array = Array.new
   while count < array.length do
     array[count].to_s
     count += 1
